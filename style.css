@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/736x/db/1b/33/db1b33aa90cd32ab0b30778f74d50c23.jpg");
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffff;
+}
+h2 {
+    text-align: center;
+    color: #ffff;
+}
+h3 {
+    text-align: center;
+    color: #ffff;
+}
+
+.media {
+    margin-top: 30px;
+}
+
+.media h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.media img,
+.media video,
+.media audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons button {
+    text-decoration: none; /* Hapus garis bawah pada tautan */
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #8e8ed5;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none; /* Menghilangkan garis di sekitar tombol saat focus */
+
+}
+
+.buttons button:hover {
+    background-color: #bfceef;
+}
+
+.buttons button a {
+    text-decoration: none;
+}

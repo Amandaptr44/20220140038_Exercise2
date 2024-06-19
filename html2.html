@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>MEMBERSHIP FORM ILLIT</h3>
+        </div>
+        <form id="registrationForm">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="domisili">Domisili</label><br>
+            <input type="text" placeholder="Domisili anda" id="domisili"><br><br>
+            <p>Warna member card:</p>
+            <input type="radio" name="card" id="pink">
+            <label for="pink">Pink</label><br>
+
+            <input type="radio" name="card" id="biru" value="biru">
+            <label for="biru">Biru</label><br>
+
+            <input type="radio" name="card" id="ungu" value="ungu">
+            <label for="ungu">Ungu</label><br>
+
+            <input type="radio" name="card" id="cream" value="cream">
+            <label for="cream">Cream</label><br><br>
+
+            <label for="member">Member Favorit</label><br>
+            <textarea placeholder="Tulis member favorit mu disini" id="member" name="member" cols="30" rows="5"></textarea><br><br>
+            
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal" name="tanggal"><br><br>
+            
+            <button type="button" onclick="kirimData()">Kirim</button>
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
